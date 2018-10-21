@@ -13,8 +13,9 @@ var last           = 0;
 var buffer         = new Buffer.alloc( BUFMAX);
 
 //FIXME: URL may change...
-var STARTPLAYLIST  = 'https://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8';
-//var STARTPLAYLIST  = 'http://radiocapital-lh.akamaihd.net/i/RadioCapital_Live_1@196312/master.m3u8';
+//var STARTPLAYLIST  = 'https://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8';
+var STARTPLAYLIST  = 'http://radiocapital-lh.akamaihd.net/i/RadioCapital_Live_1@196312/master.m3u8';
+//var STARTPLAYLIST= 'https://capital_wr_03-lh.akamaihd.net/i/WebRadio3_1@13883/master.m3u8'; //radio capital Funky
 var playlistUrl    = '';
 var bufferQueue    = new Array();
 var segment        = new Array();
