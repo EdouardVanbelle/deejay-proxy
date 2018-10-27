@@ -171,7 +171,7 @@ var server = http.createServer( function(request, response) {
 
     response.writeHead(200, {
 	    'Content-Type': 'video/MP2T',
-	    'Transfer-Encoding': 'chunked',
+	    'Transfer-Encoding': '', // avoid chunked (not supported by  Bose)
 	    'Cache-Control': 'max-age=0, no-cache, no-store',
 	    'Pragma': 'no-cache'
     });
